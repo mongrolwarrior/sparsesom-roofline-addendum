@@ -1,0 +1,11 @@
+impl,edge,kernel,pct_issue_peak,pct_dram_peak,pct_l2_peak,pct_l1_peak,pct_fp32_peak
+sbsom-bin,128,bmu_spmm_kernel,32.27,27.82,13.45,0.41,0.67
+sbsom-bin,256,bmu_spmm_kernel,30.03,45.55,13.06,0.4,0.66
+ssom-feat,128,argmax_kernel,4.21,25.63,5.15,1.96,0.24
+ssom-feat,128,csrmm_alg2_kernel,34.79,57.75,45.56,1.95,3.46
+ssom-feat,256,argmax_kernel,1.6,7.63,1.5,0.75,0.09
+ssom-feat,256,csrmm_alg2_kernel,33.38,64.8,45.68,1.87,3.31
+ssom-node,128,argmax_kernel,4.21,25.62,5.15,1.96,0.24
+ssom-node,128,csrmm_alg2_kernel,2.81,4.23,45.88,1.47,0.2
+ssom-node,256,argmax_kernel,1.6,7.63,1.5,0.75,0.09
+ssom-node,256,csrmm_alg2_kernel,2.8,7.52,46.66,1.46,0.2

@@ -1,0 +1,33 @@
+figure,edge,series,level,x_warp_inst_per_sector,y_G_warp_inst_per_s,x_flop_per_dram_byte,y_GFLOP_per_s,pct_of_fp32_peak
+instruction,128,sbsom-bin fused BMU (bmu_spmm),L1,19.722,416.1273,,,
+instruction,128,sbsom-bin fused BMU (bmu_spmm),L2,19.7669,416.1273,,,
+instruction,128,sbsom-bin fused BMU (bmu_spmm),DRAM,48.6888,416.1273,,,
+instruction,128,"cuSPARSE csrmm, feature-major",L1,4.4615,448.6103,,,
+instruction,128,"cuSPARSE csrmm, feature-major",L2,6.2895,448.6103,,,
+instruction,128,"cuSPARSE csrmm, feature-major",DRAM,25.2849,448.6103,,,
+instruction,128,"cuSPARSE csrmm, node-major",L1,0.4788,36.2721,,,
+instruction,128,"cuSPARSE csrmm, node-major",L2,0.5049,36.2721,,,
+instruction,128,"cuSPARSE csrmm, node-major",DRAM,27.9078,36.2721,,,
+instruction,128,argmax read-back (both ssom),L1,0.5379,54.2709,,,
+instruction,128,argmax read-back (both ssom),L2,6.7319,54.2709,,,
+instruction,128,argmax read-back (both ssom),DRAM,6.8919,54.2709,,,
+instruction,256,sbsom-bin fused BMU (bmu_spmm),L1,18.9172,387.2526,,,
+instruction,256,sbsom-bin fused BMU (bmu_spmm),L2,18.9328,387.2526,,,
+instruction,256,sbsom-bin fused BMU (bmu_spmm),DRAM,27.6744,387.2526,,,
+instruction,256,"cuSPARSE csrmm, feature-major",L1,4.4666,430.4605,,,
+instruction,256,"cuSPARSE csrmm, feature-major",L2,6.0183,430.4605,,,
+instruction,256,"cuSPARSE csrmm, feature-major",DRAM,21.6215,430.4605,,,
+instruction,256,"cuSPARSE csrmm, node-major",L1,0.4798,36.0527,,,
+instruction,256,"cuSPARSE csrmm, node-major",L2,0.4935,36.0527,,,
+instruction,256,"cuSPARSE csrmm, node-major",DRAM,15.5988,36.0527,,,
+instruction,256,argmax read-back (both ssom),L1,0.5379,20.6687,,,
+instruction,256,argmax read-back (both ssom),L2,8.7983,20.6687,,,
+instruction,256,argmax read-back (both ssom),DRAM,8.8204,20.6687,,,
+conventional,128,sbsom-bin fused BMU (bmu_spmm),DRAM,,,2.0357,556.7521,0.6748
+conventional,256,sbsom-bin fused BMU (bmu_spmm),DRAM,,,1.2077,540.8077,0.6554
+conventional,128,"cuSPARSE csrmm, feature-major",DRAM,,,5.0244,2852.5851,3.4573
+conventional,256,"cuSPARSE csrmm, feature-major",DRAM,,,4.2918,2734.2069,3.3138
+conventional,128,"cuSPARSE csrmm, node-major",DRAM,,,4.0396,168.0123,0.2036
+conventional,256,"cuSPARSE csrmm, node-major",DRAM,,,2.2573,166.9496,0.2023
+conventional,128,argmax read-back (both ssom),DRAM,,,0.7766,195.693,0.2372
+conventional,256,argmax read-back (both ssom),DRAM,,,0.9939,74.525,0.0903
