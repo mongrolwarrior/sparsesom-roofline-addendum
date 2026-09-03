@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper it supports (see preferred-citation below). To cite this repository specifically, use the Zenodo DOI."
+title: "Roofline addendum v1.0 - instruction-level profiles"
+abstract: "Instruction Roofline and conventional FP32 roofline analysis of the best-matching-unit phase of the three GPU implementations in the SparseSOM Phase 1 manuscript, from six Nsight Compute captures with an extended counter set."
+type: software
+version: v1.0
+date-released: 2026-09-02
+license: MIT
+doi: 10.5281/zenodo.22245686
+repository-code: "https://github.com/mongrolwarrior/sparsesom-roofline-addendum"
+url: "https://doi.org/10.5281/zenodo.22245686"
+authors:
+  - family-names: Amos
+    given-names: Andrew James
+    orcid: "https://orcid.org/0000-0002-9145-0212"
+    affiliation: "College of Medicine and Dentistry, James Cook University"
+keywords:
+  - instruction roofline
+  - Nsight Compute
+  - GPU profiling
+  - self-organizing map
+  - CUDA
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22245686
+    description: "Zenodo concept DOI - always resolves to the latest version"
+  - type: doi
+    value: 10.5281/zenodo.22245687
+    description: "Zenodo DOI for version v1.0"
+  - type: other
+    value: "arXiv:2608.24067"
+    description: "arXiv identifier of the paper this repository supports"
+preferred-citation:
+  type: article
+  title: "A Feature-Major Codebook for Memory-Efficient Sparse-Binary Self-Organizing Maps: Scaling a MEDLINE Atlas to 1.05 Million Neurons on a Single Consumer GPU"
+  year: 2026
+  month: 8
+  journal: "arXiv"
+  doi: 10.48550/arXiv.2608.24067
+  url: "https://arxiv.org/abs/2608.24067"
+  notes: "Preprint, arXiv:2608.24067 [cs.LG]"
+  authors:
+    - family-names: Amos
+      given-names: Andrew James
+      orcid: "https://orcid.org/0000-0002-9145-0212"
+      affiliation: "College of Medicine and Dentistry, James Cook University"

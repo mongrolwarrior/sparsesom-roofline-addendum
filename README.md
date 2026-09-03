@@ -1,6 +1,10 @@
 # sparsesom-roofline-addendum
 
-Instruction-level profiling addendum to the SparseSOM Phase 1 manuscript (§5.7): an
+[![arXiv](https://img.shields.io/badge/arXiv-2608.24067-b31b1b.svg)](https://arxiv.org/abs/2608.24067)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22245686.svg)](https://doi.org/10.5281/zenodo.22245686)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Instruction-level profiling addendum to the SparseSOM Phase 1 manuscript ([arXiv:2608.24067](https://arxiv.org/abs/2608.24067), §5.7): an
 **Instruction Roofline** (Ding & Williams, *Instruction Roofline Model for GPUs*, PMBS
 2019) and a **conventional FP32 roofline** of the best-matching-unit (BMU) phase of the
 paper's three GPU implementations, from six Nsight Compute captures with an extended
@@ -143,3 +147,31 @@ runs consumed is the anonymised MEDLINE/MeSH `.sbcsr` from the Zenodo record abo
 data **courtesy of the U.S. National Library of Medicine**; a fixed 2026-baseline
 snapshot that does not reflect the most current NLM data; NLM does not endorse or
 recommend this work.
+
+
+## Citation
+
+This repository is the instruction-level profiling addendum to:
+
+> Amos, A. J. (2026). *A Feature-Major Codebook for Memory-Efficient Sparse-Binary
+> Self-Organizing Maps: Scaling a MEDLINE Atlas to 1.05 Million Neurons on a Single
+> Consumer GPU.* arXiv:2608.24067 [cs.LG].
+> <https://doi.org/10.48550/arXiv.2608.24067>
+
+```bibtex
+@misc{amos2026featuremajor,
+  title         = {A Feature-Major Codebook for Memory-Efficient Sparse-Binary
+                   Self-Organizing Maps: Scaling a MEDLINE Atlas to 1.05 Million
+                   Neurons on a Single Consumer GPU},
+  author        = {Amos, Andrew James},
+  year          = {2026},
+  eprint        = {2608.24067},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.48550/arXiv.2608.24067}
+}
+```
+
+Please cite the paper. To cite this repository specifically, use its archived release
+on Zenodo: <https://doi.org/10.5281/zenodo.22245686> (concept DOI - always resolves to the
+latest version; v1.0 is [10.5281/zenodo.22245687](https://doi.org/10.5281/zenodo.22245687)).
